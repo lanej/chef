@@ -23,3 +23,10 @@ _testmain.go
 
 *.exe
 *.test
+trusted_certs/
+vendor/
+my_org-validator.pem
+knife_admin_key.tar.gz
+chef-server/
+admin.pem
+Gemfile.lock

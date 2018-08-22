@@ -1,0 +1,9 @@
+---
+version: '3'
+services:
+  chef-server:
+    image: cbuisson/chef-server:v2.5
+    ports:
+      - "444:443"
+    volumes:
+      - ./chef-server:/var/log
